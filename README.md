@@ -36,8 +36,6 @@ The most predictive features were engagement metrics (`video_like_count_log`, `v
 | `requirements.txt` | Python dependencies needed to run the notebook |
 | `.gitignore` | Excludes dataset, checkpoints, and environment files from version control |
 
-**Note:** The dataset (`tiktok_dataset.csv`) is not included in this repository. To run the notebook, place the dataset file in the same directory as the notebook.
-
 ## Tools Used
 
 - Python (pandas, numpy)
@@ -45,7 +43,4 @@ The most predictive features were engagement metrics (`video_like_count_log`, `v
 - XGBoost
 - matplotlib, seaborn
 
-## Key Takeaways & Limitations
 
-- The model performs near-perfectly on this dataset, but relies heavily on engagement metrics — meaning it's best suited for classifying videos that have already accumulated engagement, not brand-new uploads.
-- Predictions should be treated as a flag for human review, not an automated final decision, given the real-world consequences of misclassification.
