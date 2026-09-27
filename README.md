@@ -32,9 +32,11 @@ The most predictive features were engagement metrics (`video_like_count_log`, `v
 
 | File | Description |
 |---|---|
-| `Activity_Course_6_TikTok_project_lab.ipynb` | Full analysis notebook — EDA, feature engineering, modeling, and evaluation |
+| `tiktok-claim-vs-opinion-classifier.ipynb` | Full analysis notebook — EDA, feature engineering, modeling, and evaluation |
 | `requirements.txt` | Python dependencies needed to run the notebook |
 | `.gitignore` | Excludes dataset, checkpoints, and environment files from version control |
+| `tiktok_dataset.csv` | Full dataset |
+
 
 ## Tools Used
 
